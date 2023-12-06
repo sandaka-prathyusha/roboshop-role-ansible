@@ -1,0 +1,1 @@
+# roboshop-role-ansible
