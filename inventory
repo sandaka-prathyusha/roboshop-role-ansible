@@ -1,30 +1,30 @@
  [mongodb]
- mongodb.nandu18.online
+  mongodb-dev.nandu18.online
 
- [catalogue]
- catalogue.nandu18.online
+  [catalogue]
+  catalogue-dev.nandu18.online
 
- [frontend]
- frontend.nandu18.online
+  [frontend]
+  frontend-dev.nandu18.online
 
- [redis]
- redis.nandu18.online
+  [redis]
+  redis-dev.nandu18.online
 
 
- [shipping]
- shipping.nandu18.online
+  [shipping]
+  shipping-dev.nandu18.online
 
- [payment]
- payment.nandu18.online
+  [payment]
+   payment-dev.nandu18.online
 
- [rabbitmq]
- rabbitmq.nandu18.online
+  [rabbitmq]
+  rabbitmq-dev.nandu18.online
 
- [user]
- user.nandu18.online
+   [user]
+   user-dev.nandu18.online
 
- [cart]
- cart.nandu18.online
+   [cart]
+   cart-dev.nandu18.online
 
- [mysql]
- mysql.nandu18.online
+   [mysql]
+   mysql-dev.nandu18.online
