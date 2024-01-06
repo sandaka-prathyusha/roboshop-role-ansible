@@ -20,8 +20,6 @@
   args:
     chdir: /app
 
-
-
 - name: load schema
   ansible.builtin.import_role:
     name: common
