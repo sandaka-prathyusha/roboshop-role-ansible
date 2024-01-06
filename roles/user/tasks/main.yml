@@ -1,0 +1,26 @@
+- name: install nodejs
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: nodejs
+
+
+- name: setup application
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-setup
+
+
+- name: install npm
+  ansible.builtin.shell: npm install
+  args:
+    chdir: /app
+
+- name: load schema
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: load-mongo-schema
+
+- name: systemd setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd-setup
