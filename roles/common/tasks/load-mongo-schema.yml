@@ -9,4 +9,4 @@
     state: installed
 
 - name: load catalogue data
-  ansible.builtin.shell:  mongo --host mongodb.nandu18.online < /app/schema/{{component}}.js
+  ansible.builtin.shell:  mongo --host mongodb-dev.nandu18.online < /app/schema/{{component}}.js
