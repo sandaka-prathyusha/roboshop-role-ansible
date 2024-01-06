@@ -15,7 +15,7 @@
     tasks_from: app-setup
 
 
-- name: install npm
+- name: install npm dependencies
   ansible.builtin.shell: npm install
   args:
     chdir: /app
