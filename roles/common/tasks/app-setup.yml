@@ -21,8 +21,8 @@
 
 - name: download application content
   ansible.builtin.get_url:
-  url: "https://roboshop-artifacts.s3.amazonaws.com/{{component}}.zip"
-  dest: /tmp
+    url: "https://roboshop-artifacts.s3.amazonaws.com/{{component}}.zip"
+    dest: /tmp
 
 - name: extract module
   ansible.builtin.unarchive:
